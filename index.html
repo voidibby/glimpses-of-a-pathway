@@ -17,3 +17,10 @@ layout: main
 		personal sound experience.
 	</p>
 </div>
+
+{% for bit in site.bits %}
+<audio controls="controls" autoplay="autoplay">
+	<source src="{{ bit.sound_src }}" type="audio/mpeg" />
+	Your browser does not support the audio element.
+</audio>
+{% endfor %}
