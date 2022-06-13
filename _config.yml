@@ -1,0 +1,14 @@
+title: Glimpses of a pathway
+email: null
+description: > # this means to ignore newlines until "baseurl:"
+    A web-based home for Glimpses of a pathway
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username:
+mastodon_username:
+
+exclude: [README.md]
+
+collections:
+    bits:
+        output: true

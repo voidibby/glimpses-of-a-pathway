@@ -1,2 +1,3 @@
-# glimpses-of-a-pathway
+# Glimpses of a pathway
+
 Art project
