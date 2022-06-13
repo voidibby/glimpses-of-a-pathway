@@ -1,3 +1,19 @@
 ---
-layout: bit
+layout: main
 ---
+
+<div class="links-container">
+	{% for bit in site.bits %}
+	<a href="{{ site.baseurl }}{{ bit.permalink }}">{{ bit.permalink }}</a>
+	{% endfor %}
+</div>
+<div class="landing-title">
+	<h1>Glimpses of a pathway</h1>
+</div>
+
+<div class="description-container">
+	<p>
+		This is an exploration on mapping the traced path of a built knowledge system through a
+		personal sound experience.
+	</p>
+</div>
